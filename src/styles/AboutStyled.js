@@ -2,6 +2,8 @@ import styled from 'styled-components'
 
 export const AboutStyle = styled.div`
     text-align: center;
+    width:100%;
+    height: 100vh;
 `;
  
 export const AboutAvatar = styled.div`
@@ -20,7 +22,7 @@ export const AboutImg = styled.img`
 `;
  
 export const AboutName = styled.div`
-    text-align: center;
+    text-align: center;    
 `;
  
 export const AboutH2 = styled.h2`

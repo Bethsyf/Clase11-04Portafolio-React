@@ -1,5 +1,4 @@
 import React from "react";
-import '../styles/About.css'
 import { AboutAvatar, AboutH2, AboutImg, AboutLocation, AboutName, AboutProfession, AboutStyle } from '../styles/AboutStyled'
 
 const About = () => {
@@ -14,12 +13,8 @@ const About = () => {
                 <AboutName>
                     <AboutH2>Pepito Perez</AboutH2>
                 </AboutName>
-                <AboutProfession>
-                    <p>Instructor Academia Geek</p>
-                </AboutProfession>
-                <AboutLocation>
-                    <p>Medellín, Colombia</p>
-                </AboutLocation>
+                <AboutProfession>Instructor Academia Geek</AboutProfession>
+                <AboutLocation>Medellín, Colombia</AboutLocation>
                 <div className="About-social">
                     <p>Redes sociales</p>
                 </div>
